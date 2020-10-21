@@ -1,0 +1,134 @@
+/*Colors and fonts*/
+body {
+    background-color: #d0cdf7;
+    color: #435648;
+    font-family: 'Lemonada', cursive;
+    font-size: 17px
+}
+
+#profile {
+
+ border-radius: 50%;
+}
+
+
+/* Custom design with class (99% of your design */
+
+.container {
+	margin: 300px 400px;
+	width: 700px;
+}
+
+
+)
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 550px){
+	.container {
+		width: 400px;
+	}
+}
+
+.madiv1 {
+	
+	margin: 10px 50px;
+	text-align: center;
+	padding: 60px;
+	box-shadow: 0px 10px 30px rgb(0,0,0,0.1);
+}
+
+.madiv2 {
+	
+	margin: 10px 50px;
+	text-align: center;
+	padding: 60px;
+	box-shadow: 0px 10px 30px rgb(0,0,0,0.1);	
+}
+
+.madiv3 {
+	
+	margin: 10px 50px;
+	text-align: center;
+	padding: 60px;
+	box-shadow: 0px 10px 30px rgb(0,0,0,0.1);
+}
+
+.madiv4 {
+	
+	margin: 10px 50px;
+	text-align: center;
+	padding: 60px;
+	box-shadow: 0px 10px 30px rgb(0,0,0,0.1);
+}
+
+.madiv5 {
+	
+	margin: 10px 50px;
+	padding: 60px;
+	box-shadow: 0px 10px 30px rgb(0,0,0,0.1);
+	text-align: center;
+}
+
+.madiv6 {
+align-content: : left;
+
+}
+
+h1, h2, h3	{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	color: #9a112a;
+	font-size: 50px;
+	font-weight: 900
+}
+
+h2{
+	font-weight: 300;
+	letter-spacing: 8px;
+	font-size: 30px;
+	color: #67509ea6
+} 
+
+a{
+	text-decoration: none;
+	color: blue;
+	transition: color 0.3s
+}
+
+a:hover {
+  
+  color: yellow;
+}
+
+.btn-blue {
+	background-color: #6B72E1;
+	color: white;
+	padding: 8px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+  background-color: black ;
+  color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+	margin-right: 10%;
+}
+
+.list-inline li {
+	display: inline; 
+	padding: 20px
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #6B72E1;
